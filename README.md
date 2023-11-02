@@ -47,7 +47,7 @@ $ wp acorn media:generate-slugs
 Reverting your attachment `post_name` slugs may not restore them to 1:1 to what they were prior to conversion. This command simply re-generates the slugs for each media attachment based on the existing `post_title` falling back to the filename if the existing `post_title` is empty.
 
 ```bash
-$ wp acorn media:generate --revert
+$ wp acorn media:generate-slugs --revert
 ```
 
 ## Bug Reports
