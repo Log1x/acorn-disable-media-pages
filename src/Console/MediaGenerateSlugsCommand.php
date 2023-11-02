@@ -164,7 +164,6 @@ class MediaGenerateSlugsCommand extends Command
     /**
      * Get existing attachments that are not UUID's.
      *
-     * @param  bool  $uuids
      * @return \Illuminate\Support\Collection
      */
     protected function getAttachments(bool $uuids = false)
