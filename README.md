@@ -1,8 +1,12 @@
 # Acorn Disable Media Pages
 
+![Latest Stable Version](https://img.shields.io/packagist/v/log1x/acorn-disable-media-pages.svg?style=flat-square)
+![Total Downloads](https://img.shields.io/packagist/dt/log1x/acorn-disable-media-pages.svg?style=flat-square)
+![Build Status](https://img.shields.io/github/actions/workflow/status/log1x/acorn-disable-media-pages/main.yml?branch=main&style=flat-square)
+
 Disable Media Pages is an [Acorn](https://github.com/roots/acorn) package for WordPress that disables media pages and generates unique UUID's for each media attachment's `post_name` to prevent clashing.
 
-WordPress 6.4 will bring the ability to ["disable" attachment pages](https://make.wordpress.org/core/2023/10/16/changes-to-attachment-pages/) but attachment's will still generate unnecessary slugs based on the uploaded media's filename.
+WordPress 6.4 will bring the ability to ["disable" attachment pages](https://make.wordpress.org/core/2023/10/16/changes-to-attachment-pages/) but attachments will still generate unnecessary slugs based on the uploaded media's filename.
 
 ## Features
 
