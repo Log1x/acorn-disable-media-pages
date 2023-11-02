@@ -1,0 +1,37 @@
+{
+  "name": "log1x/acorn-disable-media-pages",
+  "type": "package",
+  "license": "MIT",
+  "description": "Disable media attachment pages in WordPress.",
+  "authors": [
+    {
+      "name": "Brandon Nifong",
+      "email": "brandon@tendency.me"
+    }
+  ],
+  "keywords": [
+    "wordpress",
+    "acorn"
+  ],
+  "support": {
+    "issues": "https://github.com/log1x/acorn-disable-media-pages/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "Log1x\\DisableMediaPages\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "require-dev": {
+    "laravel/pint": "^1.13"
+  },
+  "extra": {
+    "acorn": {
+      "providers": [
+        "Log1x\\DisableMediaPages\\DisableMediaPagesServiceProvider"
+      ]
+    }
+  }
+}
