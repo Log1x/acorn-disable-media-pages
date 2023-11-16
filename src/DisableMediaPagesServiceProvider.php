@@ -2,8 +2,8 @@
 
 namespace Log1x\DisableMediaPages;
 
-use Log1x\DisableMediaPages\Console\MediaGenerateSlugsCommand;
 use Illuminate\Support\ServiceProvider;
+use Log1x\DisableMediaPages\Console\MediaGenerateSlugsCommand;
 
 class DisableMediaPagesServiceProvider extends ServiceProvider
 {
