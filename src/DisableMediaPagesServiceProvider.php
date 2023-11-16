@@ -3,7 +3,7 @@
 namespace Log1x\DisableMediaPages;
 
 use Log1x\DisableMediaPages\Console\MediaGenerateSlugsCommand;
-use Roots\Acorn\ServiceProvider;
+use Illuminate\Support\ServiceProvider;
 
 class DisableMediaPagesServiceProvider extends ServiceProvider
 {
