@@ -139,7 +139,7 @@ class MediaGenerateSlugsCommand extends Command
                 return;
             }
 
-            remove_filter('wp_unique_post_slug', [$this->package, 'randomizeAttachmentSlug'], 10, 4);
+            remove_filter('wp_unique_post_slug', [$this->package, 'randomizeAttachmentSlug']);
 
             $slug = $attachment['title'] ?: Str::beforeLast($filename, '.');
 
